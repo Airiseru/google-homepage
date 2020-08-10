@@ -180,4 +180,8 @@ button:hover {
     .top {
         display: none;
     }
+
+    input {
+        width: 50%;
+    }
 }
