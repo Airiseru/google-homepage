@@ -1,0 +1,169 @@
+body {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    color: rgb(232, 230, 227);
+    text-align: center;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+}
+
+.top {
+    display: inline-block;
+    text-align: center;
+}
+
+.top a {
+    color: rgba(232, 230, 227, 0.87);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+.nav {
+    display: flex;
+    align-content: center;
+    padding: 5px;
+    margin: 1em 2em;
+}
+
+#top-left, #top-right {
+    padding: 10px;
+    word-spacing: 1em;
+}
+
+#top-left {
+    align-self: center;
+}
+
+#top-right {
+    margin-left: auto;
+    align-self: center;
+}
+
+#apps {
+    vertical-align: text-bottom;
+}
+
+#sign-in {
+    background-color: #004daa;
+    color: white;
+    padding: .5em 1em;
+    font-size: 14px;
+}
+
+.btn {
+    color: #e8e6e3;
+    background-color: #181a1b;
+    padding: 1em 1em;
+    margin: 0 5px;
+    margin-top: 2em;
+    border: 1px solid #f2f2f2;
+    border-color: rgb(52, 56, 58);
+}
+
+.main {
+    text-align: center;
+    margin: 4em auto;
+    padding: 10px;
+}
+
+.google-logo {
+    margin-bottom: 1.25em;
+}
+
+.search-bar {
+    border: 1px solid #454a4d;
+    display: flex;
+    width: 40%;
+    text-align: center;
+    border-radius: 30px;
+    margin: 0 auto;
+    padding: 9px 12px;
+}
+
+#bar {
+    background-color: transparent;
+    border: 0;
+    color: white;
+    flex-grow: 2;
+    text-shadow: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.search-buttons {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid;
+    width: 100vw;
+    background-color: rgb(24, 26, 27);
+}
+
+.footer a {
+    color: rgb(169, 162, 151);
+    padding: .5rem;
+}
+
+.left, .right {
+    padding: 1.25rem;
+    display: inline-block;
+}
+
+.right {
+    float: right;
+}
+
+@media only screen and (max-width: 1200px) {
+    .search-bar {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    footer, .footer {
+        display: none;
+    }
+
+    .main {
+        position: relative;
+        text-align: center;
+    }
+
+    .inner-div {
+        margin: 0 auto;
+    }
+
+    .search-bar {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .top {
+        display: none;
+    }
+}
