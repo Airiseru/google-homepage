@@ -37,6 +37,10 @@ button {
     border-radius: 3px;
 }
 
+button:hover {
+    padding: 1.15em;
+}
+
 .nav {
     display: flex;
     align-content: center;
@@ -99,11 +103,17 @@ button {
     padding: 9px 12px;
 }
 
+.search-bar:hover {
+    width: 41%;
+    box-shadow: 2px 3px 2px rgb(169, 162, 151);
+}
+
 #bar {
     background-color: transparent;
     border: 0;
     color: white;
-    flex-grow: 2;
+    padding: 0 1em;
+    flex-grow: 1.5;
     text-shadow: none;
     outline: none;
     font-size: 18px;
@@ -159,6 +169,10 @@ button {
 
     .search-bar {
         width: 75%;
+    }
+
+    .search-bar:hover {
+        width: 76%;
     }
 }
 
