@@ -210,7 +210,11 @@ button:hover {
         width: 50%;
     }
 
-    input {
-        width: 75%;
+    .search-bar {
+        width: 85%;
+    }
+
+    .search-bar:hover {
+        width: 86%;
     }
 }
